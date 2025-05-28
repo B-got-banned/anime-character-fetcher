@@ -1,0 +1,52 @@
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+
+.imgDisplay{
+  display: none;
+}
+
+#charName{
+  text-align: center;
+  width: 300px;
+  border: none;
+  transition: border 0.3s ease;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#charName:hover{
+  border: 2px solid hsla(0, 14%, 21%, 0.712);
+}
+
+
+#fetchBtn{
+  border: none;
+  border-radius: 5px;
+  background-color: hsla(0, 14%, 21%, 0.712);
+  color: white;
+  padding: 5px;
+  transition: scale 0.3s ease;
+  cursor: pointer;
+}
+
+#fetchBtn:hover{
+  scale: 1.05;
+}
+#fetchBtn:active{
+  background-color: hsla(0, 14%, 31%, 0.712);
+}
+
+#charImage{
+  margin: auto;
+  border: 2px solid hsla(0, 14%, 21%, 0.712);
+  border-radius: 15px;
+  animation: fade 0.4s;
+}
+
+@keyframes fade{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
