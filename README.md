@@ -30,4 +30,4 @@ Try the live version here:
 
 ---
 
-Made with 🤎 by B-got-banned
+Made with 🤎 by [B-got-banned](https://github.com/B-got-banned)
