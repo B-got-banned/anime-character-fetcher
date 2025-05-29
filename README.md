@@ -20,7 +20,8 @@ Search for your favorite anime character and click the button to see their image
 
 - HTML  
 - CSS  
-- JavaScript  
+- JavaScript
+- Jikan API
 
 ## Live Demo
 
